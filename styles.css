@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+h1 a {
+   
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+     
+}
+h2{
+    font-size: 40px;
+}
+  .container2{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .container {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  #hero h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Features Section Styles */
+  #features {
+    background-color: #fff;
+    padding: 60px 0;
+  }
+
+  #features h2 {
+    text-align: center;
+    color: #333;
+    width: 100%;
+  }
+  
+  .feature {
+    text-align: center;
+    margin-top: 40px;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature img {
+    object-fit: contain;
+    width: 350px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .partner{
+    text-align: center;
+    margin-top: 40px;
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  .partner:hover {
+    transform: translateY(-5px);
+  }
+  
+  .partner img {
+    object-fit: contain;
+    width: 150px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  /* How It Works Section Styles */
+  #how-it-works {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #how-it-works h2 {
+    text-align: center;
+    color: #333;
+    width: 100%;
+  }
+  
+  /* Benefits Section Styles */
+  #benefits {
+    background-color: #fff;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #benefits h2 {
+    text-align: center;
+    color: #333;
+    width: 100%;
+  }
+  
+  /* Partners Section Styles */
+  #partners {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #partners h2 {
+    text-align: center;
+    color: #333;
+    width: 100%;
+  }
+  
+  
+  /* Download Section Styles */
+  #download {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  #download h2 {
+    color: #fff;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #333;
+  }
+  
